@@ -1,0 +1,13 @@
+class: coffee_shops
+
+attributes:
+address (string)
+has_wifi (boolean)
+different_size_cups (array)
+current_number_of_drinks (integer)
+
+methods:
+move_location (modify the address attribute)
+install_wifi (set has_wifi to true)
+add_new_size_cup (add a new size cup to different_size_cups array)
+make_new_drink (add current_number_of_drinks by 1)
