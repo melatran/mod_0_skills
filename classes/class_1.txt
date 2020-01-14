@@ -1,0 +1,13 @@
+class: fast_food_restaurant
+
+attributes:
+name (string)
+menu (array)
+is_open (boolean)
+current_employees (integer)
+
+methods:
+change_name (modify the name attribute)
+add_menu_item (add new menu item to menu array)
+open (set is_open to true)
+hire_new_employee (add current_employees by 1)
